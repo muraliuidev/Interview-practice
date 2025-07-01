@@ -1,7 +1,12 @@
 
 import './App.css'
+import Context from './components/Context'
+import DebounceAndThrottling from './components/DebounceAndThrottling'
+import InputValue from './components/InputValue'
+import LazyComponent from './components/LazyComponent'
 import Pagination from './components/Pagination'
 import Search from './components/Search'
+import Window from './components/Window'
 import WindowResize from './components/WindowResize'
 
 function App() {
@@ -11,7 +16,12 @@ function App() {
     <div>
       {/* <Pagination /> */}
       {/* <Search /> */}
-      <WindowResize />
+      {/* <WindowResize /> */}
+      {/* <DebounceAndThrottling /> */}
+      {/* <Window /> */}
+      {/* <InputValue /> */}
+      <Context />
+      {/* <LazyComponent /> */}
     </div>
   )
 }
