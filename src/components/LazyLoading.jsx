@@ -1,7 +1,7 @@
 function LazyLoading () {
-    return (
+    return(
         <div>
-            <h1>I am lazy loading</h1>
+            <h1>This is Lazy Loading</h1>
         </div>
     )
 }
