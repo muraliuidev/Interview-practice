@@ -35,7 +35,7 @@ const DebounceAndThrottling = () => {
     }
 
     const handleDebounce = useCallback(ourDebounce(handleDebounceValue, 300), [])
-    const handleThrottling = useCallback(ourThrottling(handleThrottlingValue, 300), [])
+    const handleThrottling = useCallback(ourThrottling(handleThrottlingValue, 300), )
 
     return (
         <div>
