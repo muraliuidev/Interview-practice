@@ -6,6 +6,7 @@ import InputValue from './components/InputValue'
 import LazyComponent from './components/LazyComponent'
 import Pagination from './components/Pagination'
 import Search from './components/Search'
+import Toggle from './components/Toggle'
 import Window from './components/Window'
 import WindowResize from './components/WindowResize'
 
@@ -20,8 +21,9 @@ function App() {
       {/* <DebounceAndThrottling /> */}
       {/* <Window /> */}
       {/* <InputValue /> */}
-      <Context />
+      {/* <Context /> */}
       {/* <LazyComponent /> */}
+      <Toggle />
     </div>
   )
 }

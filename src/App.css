@@ -28,3 +28,13 @@ td, th {
   border: 1.2px solid black;
   padding: 4px;
 }
+.toggle__button {
+  background-color: aqua;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  width: 100px;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
