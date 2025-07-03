@@ -38,3 +38,23 @@ td, th {
   padding: 10px 30px;
   border-radius: 50px;
 }
+.light__mode{
+  background-color: aquamarine;
+  color: rgb(6, 78, 54);
+  height: 100vh;
+}
+.dark__mode{
+  background-color: rgb(6, 78, 54);
+  color: aquamarine;
+  height: 100vh;
+}
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}

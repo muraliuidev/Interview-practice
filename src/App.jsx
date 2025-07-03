@@ -4,6 +4,7 @@ import Context from './components/Context'
 import DebounceAndThrottling from './components/DebounceAndThrottling'
 import InputValue from './components/InputValue'
 import LazyComponent from './components/LazyComponent'
+import Mode from './components/Mode'
 import Pagination from './components/Pagination'
 import Search from './components/Search'
 import Toggle from './components/Toggle'
@@ -23,7 +24,8 @@ function App() {
       {/* <InputValue /> */}
       {/* <Context /> */}
       {/* <LazyComponent /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <Mode />
     </div>
   )
 }
